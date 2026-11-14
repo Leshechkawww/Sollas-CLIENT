@@ -46,8 +46,6 @@ Sollas CLIENT объединяет интерфейс в стиле liquid glass
 3. Положи JAR в папку `mods` нужного профиля Minecraft.
 4. Запусти профиль NeoForge. Для открытия рабочего пространства нажми **Right Shift** или выбери **Open workspace** в главном меню.
 
-Репозиторий сейчас приватный — для скачивания другу понадобится приглашение и доступ к нему на GitHub.
-
 ## Ошибки и идеи
 
 Нашёл ошибку или придумал улучшение? [Создай задачу на GitHub](https://github.com/Leshechkawww/Sollas-CLIENT/issues/new/choose) и выбери подходящую форму. История версий находится в [CHANGELOG.md](CHANGELOG.md). Проверку сборки и её JAR можно найти во вкладке [Actions](https://github.com/Leshechkawww/Sollas-CLIENT/actions).

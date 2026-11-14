@@ -1,0 +1,25 @@
+name: Предложить идею
+description: Предложи новую возможность или улучшение Sollas CLIENT.
+title: "[Идея] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что предлагаешь добавить или изменить?
+      description: Опиши идею своими словами.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Зачем это нужно?
+      description: Расскажи, какую задачу решит идея и как ей пользоваться.
+    validations:
+      required: false
+  - type: textarea
+    id: extras
+    attributes:
+      label: Дополнительные детали
+      description: Можно приложить примеры или изображения.
+    validations:
+      required: false

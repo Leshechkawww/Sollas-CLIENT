@@ -1,0 +1,64 @@
+{
+  "attributes": [
+    "Position"
+  ],
+  "vertex": "examplemod:blur",
+  "fragment": "examplemod:sky",
+  "samplers": [],
+  "uniforms": [
+    {
+      "count": 16,
+      "type": "matrix4x4",
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "InvVP"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        0
+      ],
+      "name": "Time"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        3
+      ],
+      "name": "Mode"
+    },
+    {
+      "count": 3,
+      "type": "float",
+      "values": [
+        0.3,
+        0.5,
+        1
+      ],
+      "name": "Color"
+    }
+  ],
+  "blend": {
+    "dstrgb": "1-srcalpha",
+    "srcrgb": "srcalpha",
+    "func": "add"
+  }
+}

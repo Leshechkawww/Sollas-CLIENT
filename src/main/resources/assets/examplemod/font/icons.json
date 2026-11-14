@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "chars": [
+        ""
+      ],
+      "file": "examplemod:font/lucide.png",
+      "ascent": 11,
+      "height": 14
+    }
+  ]
+}

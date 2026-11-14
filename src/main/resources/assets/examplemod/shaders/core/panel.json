@@ -1,0 +1,130 @@
+{
+  "vertex": "examplemod:panel",
+  "uniforms": [
+    {
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "matrix4x4",
+      "name": "ModelViewMat",
+      "count": 16
+    },
+    {
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "matrix4x4",
+      "name": "ProjMat",
+      "count": 16
+    },
+    {
+      "values": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "type": "float",
+      "name": "Rect",
+      "count": 4
+    },
+    {
+      "values": [
+        1,
+        1
+      ],
+      "type": "float",
+      "name": "Resolution",
+      "count": 2
+    },
+    {
+      "values": [
+        10
+      ],
+      "type": "float",
+      "name": "Radius",
+      "count": 1
+    },
+    {
+      "values": [
+        0.1,
+        0.1,
+        0.1,
+        1
+      ],
+      "type": "float",
+      "name": "Tint",
+      "count": 4
+    },
+    {
+      "values": [
+        0
+      ],
+      "type": "float",
+      "name": "Mode",
+      "count": 1
+    },
+    {
+      "values": [
+        8
+      ],
+      "type": "float",
+      "name": "Refraction",
+      "count": 1
+    },
+    {
+      "name": "Opacity",
+      "values": [
+        1
+      ],
+      "type": "float",
+      "count": 1
+    }
+  ],
+  "fragment": "examplemod:panel",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "attributes": [
+    "Position"
+  ],
+  "blend": {
+    "srcrgb": "srcalpha",
+    "func": "add",
+    "srcalpha": "one",
+    "dstalpha": "1-srcalpha",
+    "dstrgb": "1-srcalpha"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "attributes": [
+    "Position"
+  ],
+  "vertex": "examplemod:blur",
+  "fragment": "examplemod:hand",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "count": 2,
+      "type": "float",
+      "values": [
+        1,
+        1
+      ],
+      "name": "Resolution"
+    },
+    {
+      "count": 3,
+      "type": "float",
+      "values": [
+        0.6,
+        0.5,
+        1
+      ],
+      "name": "Color"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        0
+      ],
+      "name": "Time"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        0
+      ],
+      "name": "Mode"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        0.5
+      ],
+      "name": "Opacity"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        3
+      ],
+      "name": "Radius"
+    }
+  ],
+  "blend": {
+    "dstrgb": "1-srcalpha",
+    "srcrgb": "srcalpha",
+    "func": "add"
+  }
+}

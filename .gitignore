@@ -1,0 +1,15 @@
+.gradle/
+.gradle-user/
+build/
+run/
+.idea/
+.vscode/
+*.iml
+*.log
+backups/
+downloads/
+tools/
+design-assets/
+render-reference/
+.env
+.env.*

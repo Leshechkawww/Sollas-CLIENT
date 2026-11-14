@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.examplemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftMixin",
+    "EntityDispatcherMixin",
+    "HandMixin",
+    "HeartsMixin",
+    "LevelRendererMixin",
+    "LightMixin",
+    "LivingMixin",
+    "MouseMixin",
+    "ParticlesMixin",
+    "RendererMixin",
+    "WorldMixin",
+    "FontTextureMixin",
+    "FakeAttackMixin",
+    "GlassPlayerInventoryMixin",
+    "GlassChestMixin",
+    "GlassLabelsMixin",
+    "GlassCreativeInventoryMixin",
+    "FastPlaceMixin",
+    "MinecraftAccessor",
+    "FishingHookAccessor",
+    "VelocityMixin",
+    "NoSlowMixin",
+    "FastBreakMixin",
+    "StepMixin",
+    "CriticalAttackMixin",
+    "FluidWalkMixin",
+    "WebSlowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

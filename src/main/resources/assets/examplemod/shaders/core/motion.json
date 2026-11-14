@@ -1,0 +1,98 @@
+{
+  "vertex": "examplemod:blur",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    },
+    {
+      "name": "Sampler1"
+    }
+  ],
+  "uniforms": [
+    {
+      "count": 16,
+      "type": "matrix4x4",
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "InvVP"
+    },
+    {
+      "count": 16,
+      "type": "matrix4x4",
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "PrevVP"
+    },
+    {
+      "count": 3,
+      "type": "float",
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "name": "CameraDelta"
+    },
+    {
+      "count": 2,
+      "type": "float",
+      "values": [
+        1,
+        1
+      ],
+      "name": "Resolution"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        0.5
+      ],
+      "name": "Strength"
+    },
+    {
+      "count": 1,
+      "type": "float",
+      "values": [
+        18
+      ],
+      "name": "Limit"
+    }
+  ],
+  "fragment": "examplemod:motion",
+  "attributes": [
+    "Position"
+  ]
+}

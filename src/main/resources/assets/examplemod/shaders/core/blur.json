@@ -1,0 +1,23 @@
+{
+  "vertex": "examplemod:blur",
+  "uniforms": [
+    {
+      "values": [
+        0,
+        0
+      ],
+      "type": "float",
+      "name": "Direction",
+      "count": 2
+    }
+  ],
+  "fragment": "examplemod:blur",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "attributes": [
+    "Position"
+  ]
+}
